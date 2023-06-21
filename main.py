@@ -5,16 +5,16 @@ def main():
 
     #give total number of students
     total_students = males + females
-    print('The total number of students: ', total_students)
-
-    #give the number of males and females
-    print('The number of males and females: ', str(males), '\t', str(females))
+    
 
     #assign the percentage of males and females to variables
     m_perc = 100 * males / total_students
-    f_perc = 100 * females / total_students 
+    f_perc = 100 * females / total_students  
 
-    #give the percentage of males and females
+
+    #print the total number of students, the number of males and females, and the percentages of males and females
+    print('The total number of students: ', total_students)
+    print('The number of males and females: ', str(males), '\t', str(females))
     print(f'The percentage of males and females: {m_perc:.2f}% \t {f_perc:.2f}%')
 
     """
